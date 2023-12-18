@@ -1,6 +1,6 @@
 {
-  "titles":{
-    "USE_CASE":"## Use Case",
-    "RUN":"## Run"
+  "variables":{
+    "TITLE:USE_CASE":"## Use Case",
+    "TITLE:USE_RUN":"## Run"
   }
 }
