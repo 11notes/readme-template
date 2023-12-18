@@ -1,6 +1,11 @@
 {
   "variables":{
-    "TITLE:USE_CASE":"## Use Case",
-    "TITLE:USE_RUN":"## Run"
+    "TITLE:DESCRIPTIONE":"## Description",
+    "TITLE:VOLUMES":"## Volumes",
+    "TITLE:RUN":"## Run",
+    "TITLE:DEFAULTS":"## Defaults",
+    "TITLE:PARENT":"## Parent image",
+    "TITLE:BUILT":"## Built with (thanks to)",
+    "CONTENT:ALPINE_HEADER":"Run ${{ APP:NAME }} based on Alpine Linux. Small, lightweight, secure and fast 🏔️"
   }
 }
