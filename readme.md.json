@@ -6,6 +6,7 @@
     "TITLE:DEFAULTS":"## Defaults",
     "TITLE:PARENT":"## Parent image",
     "TITLE:BUILT":"## Built with (thanks to)",
-    "CONTENT:ALPINE_HEADER":"Run ${{ APP:NAME }} based on Alpine Linux. Small, lightweight, secure and fast 🏔️"
+    "CONTENT:ALPINE_HEADER":"Run ${{ APP:NAME }} based on Alpine Linux. Small, lightweight, secure and fast 🏔️",
+    "CONTENT:TIPS":"## Tips\r\n* Only use rootless container runtime (podman, rootless docker)\r\n* Don't bind to ports < 1024 (requires root), use NAT/reverse proxy (haproxy, traefik, nginx)"
   }
 }
