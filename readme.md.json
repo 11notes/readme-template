@@ -9,6 +9,9 @@
     "CONTENT:ALPINE_HEADER":"Run ${{ APP:NAME }} based on Alpine Linux. Small, lightweight, secure and fast 🏔️",
     "CONTENT:TIPS":"## Tips\r\n* Only use rootless container runtime (podman, rootless docker)\r\n* Don't bind to ports < 1024 (requires root), use NAT/reverse proxy (haproxy, traefik, nginx)",
     "CONTENT:DEFAULTS":"| Parameter | Value | Description |\r\n| --- | --- | --- |\r\n| `user` | docker | user docker |\r\n| `uid` | 1000 | user id 1000 |\r\n| `gid` | 1000 | group id 1000 |\r\n| `home` | ${{ APP:ROOT }} | home directory of user docker |",
-    "CONTENT:ENVIRONMENT":"## Environment\r\n| Parameter | Value | Default |\r\n| --- | --- | --- |\r\n| `TZ` | [Time Zone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) | null |"
+    "CONTENT:ENVIRONMENT":"## Environment\r\n| Parameter | Value | Default |\r\n| --- | --- | --- |\r\n| `TZ` | [Time Zone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) | null |",
+    "CONTENT:11NOTES:IMAGE:ALPINE":"* [11notes/alpine:stable](https://hub.docker.com/r/11notes/alpine)",
+    "CONTENT:11NOTES:IMAGE:NGINX":"* [11notes/alpine:stable](https://hub.docker.com/r/11notes/nginx)",
+    "CONTENT:11NOTES:IMAGE:NODE":"* [11notes/alpine:stable](https://hub.docker.com/r/11notes/node)"
   }
 }
